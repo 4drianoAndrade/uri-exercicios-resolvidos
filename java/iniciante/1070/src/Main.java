@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int value = sc.nextInt();
+
+		for (int i = value; i < value + 12; i++)
+			if (i % 2 == 1)
+				System.out.println(i);
+
+		sc.close();
+	}
+}
